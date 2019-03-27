@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* Miso Basic Page */
+.page-content { 
+	line-height:22px; 
+	word-break: keep-all; 
+	word-wrap: break-word; 
+}
+.page-content p { 
+	margin:0 0 15px; 
+	padding:0; 
+}
+.page-content table { 
+	border-top:2px solid #333; 
+	border-bottom:1px solid #ddd; 
+}
+.page-content th, .page-content td { 
+	line-height:1.6 !important; 
+}
+.page-content th.blank { 
+	border: 0px !important; 
+}
+.page-content .tab-content { 
+	background: none !important; 
+}
+.page-content .slogan { 
+	font-size:23px; 
+	letter-spacing:-1px; 
+	margin-bottom:20px; 
+	line-height:34px; 
+}
+.page-content .slogan i { 
+	font-size:15px; 
+	vertical-align:top; 
+	margin-top:6px; 
+}
+.page-content .div-ring { 
+	margin:30px 0px; 
+}
+.page-content .div-ring li { 
+	border:1px solid #eee; 
+}
+.page-content .person { 
+	margin-bottom:20px; 
+}
+.page-content .person .img-wrap{ 
+	padding-bottom:56.25%; /* 사진 크기 */ 
+}
+.page-content .history .nav-tabs { 
+	border-bottom:0px !important; 
+}
+.page-content .history .nav-tabs li { 
+	margin-bottom:0px !important; 
+}
+.page-content .history .nav-tabs li a { 
+	border-bottom:0px !important; 
+}
+.page-content .history .tab-content { 
+	border:0 !important; 
+	padding:0 !important; 
+}
+.page-content .page-nav { 
+	margin-top:10px; 
+}
+@media all and (max-width:460px) {
+	.responsive .page-content .page-nav { 
+		display:none; 
+	}
+}

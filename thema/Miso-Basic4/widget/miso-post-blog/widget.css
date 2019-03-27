@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.miso-post-blog .post-wrap { overflow:hidden; }
+.miso-post-blog .txt-normal { letter-spacing:0; }
+.miso-post-blog .txt-short { letter-spacing:-1px; padding-right:1px; }
+.miso-post-blog .post-vicon { position:absolute; left:6px; top:6px; color: #fff; font-size:24px; z-index:1; text-shadow: 1px 1px 1px #000; }
+.miso-post-blog .post-none { padding:50px 10px; text-align:center; color:#888; }
+.miso-post-blog .post-row { float:left; overflow:hidden; }
+.miso-post-blog .post-list { position:relative; overflow:hidden; border:1px solid #ddd; }
+.miso-post-blog .post-image { overflow:hidden; }
+.miso-post-blog .post-image img { width:100%; }
+.miso-post-blog .post-box { padding:15px; }
+@media (max-width:480px) { 
+	.responsive .miso-post-blog .post-box { padding:10px; } 
+}
+.miso-post-blog .div-title-underline-thin { margin:0px 0px 2px; padding:0px 0px 2px; padding-right:1px; letter-spacing:-1px; }
+.miso-post-blog .post-subject { text-align:center; font-size:18px; letter-spacing:-1px; line-height:28px; padding-right:1px; margin-bottom:15px; }
+.miso-post-blog .is-text .post-subject { font-size: 24px; line-height:34px; }
+.miso-post-blog .post-content { line-height:20px; font-size:12px; color:#888; overflow:hidden; max-height:60px; margin-bottom:15px; }
+.miso-post-blog .is-text .post-content { max-height:160px; }
+.miso-post-blog .post-details { font-size:14px; overflow:hidden; margin-right:-10px; }
+.miso-post-blog .post-details i { margin-right:2px; }
+.miso-post-blog .post-details span { margin-right:10px; }
+
+.miso-post-blog #infscr-loading { background: rgb(0, 0, 0); margin:0px; padding: 10px; border-radius: 10px; left: 50%; width: 200px; margin-left:-110px; text-align: center; bottom: 50px; color: rgb(255, 255, 255); position: fixed; z-index: 100; opacity: 0.8; -webkit-border-radius: 10px; -moz-border-radius: 10px; }
+.miso-post-blog .post-more { text-align:center; margin:15px 0px 0px; }

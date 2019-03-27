@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.miso-faq-list ul { padding:0px; margin:-2px 0px; line-height:22px; list-style:none; }
+.miso-faq-list li { margin:0; padding:0px; }
+.miso-faq-list li .icon { color:#ddd; }
+.miso-faq-list li.item-none { padding:50px 10px; }

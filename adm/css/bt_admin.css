@@ -1,0 +1,72 @@
+.bt_wrap{
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-break:break-all;
+}
+
+.bt_td_site_name{}
+.bt_td_bo_table{width:100px; text-align:center}
+.bt_td_site_use{width:80px; text-align:center}
+.bt_td_site_edit{width: 60px; text-align:center}
+.bt_td_site_enctype{width:80px; text-align:center}
+.bt_td_site_stidx{width:40px;text-align:center}
+.bt_td_site_delay{width:80px;text-align:center}
+.bt_td_site_step{width:80px;text-align:center}
+.bt_td_site_use{width:40px;text-align:center}
+
+
+.txt_left{text-align:left}
+.txt_center{text-align:center}
+.txt_right{text-align:right}
+
+.bt_fieldset{margin: 3px 20px; padding: 3px;  border: 1px groove #efefef;}
+.bt_legend{position: relative; margin: 3px; padding: 3px; font-size: 12px; line-height: 12px;  text-indent: 0em;  overflow: none;width:auto;height:auto}
+
+.bt_ul_site{list-style: none;margin:2px; padding:4px}
+.bt_ul_site li{display: inline-block}
+
+.st_long_input{width:90%}
+.st_uid_fld, .st_uid_val, .st_pwd_fld, .st_pwd_val{display:inline-block; width:80px}
+.st_name{}
+.st_cate{text-align:center}
+.st_url{}
+.st_title{}
+.st_regdate{text-align:center}
+.st_writer{text-align:center}
+.st_visit{text-align:center}
+.st_state{text-align:center}
+.st_del{text-align:center}
+
+
+/*
+로딩바
+*/
+.wrap-loading{ /*화면 전체를 어둡게 합니다.*/
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background: rgba(0,0,0,0.2); /*not in ie */
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#20000000', endColorstr='#20000000');    /* ie */
+}
+.wrap-loading div{text-align:center}
+.wrap-loading>div{ /*로딩 이미지*/
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-left: -21px;
+	margin-top: -21px;
+}
+.display-none{ /*감추기*/
+	display:none;
+}
+
+.more_base{display:none}
+.more_member{display:none}
+.more_content{display:none}
+.more_etc{display:none}
+.more_reply{display:none}
